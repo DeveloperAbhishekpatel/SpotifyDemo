@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hailee Stainfeld</title>
+
+    <link rel="stylesheet" type="text/css" href="Project.css">
+    <style>
+        body{
+            background-color: #101010;
+            font-family: Calibri;
+
+        }
+        td:hover {background-color: #999999;
+            cursor: pointer;
+            color: black;
+        }
+    </style>
+
+</head>
+<body>
+<div id="header" style="position: absolute">
+    <ul>
+        <a href="index.html"> <img  id="head1" src="projectMedia/PlayList.png" ></a>
+        <li>&nbsp;&nbsp;</li>
+        <li><b><a href="login.html" style="color: white; text-decoration: none">Log In</a></b></li>
+        <li><b><a href="signUp.html" style="color: white; text-decoration: none">Sign up</a></b></li>
+        <li>|</li>
+        <li><b><a href="allSongs.html" style="text-decoration: none; color: inherit">Songs</a></b></li>
+        <li><b><a href="help.html" style="color: white; text-decoration: none">Help</a></b></li>
+        <li><b><a href="premium.html" style="color: white; text-decoration: none">Premium</a></b></li>
+
+    </ul>
+</div>
+
+<div id="browseContent">
+    <div id="browseLeftContent">
+        <table id="tableBrowse" style="width: 200px;
+                                 height: 40px;
+                                 border-spacing: 20px;
+                                 font-weight: bold;">
+            <tr>
+                <td><a href="Browse.html" style="color: inherit; text-decoration: none">Browse</a></td>
+            </tr>
+            <tr>
+                <td><a href="premium.html" style="color: inherit; text-decoration: none">Made For You</a></td>
+            </tr>
+            <tr>
+                <td><a href="recentlyPlayed.html" style="color: inherit; text-decoration: none">Recently Played</a></td>
+            </tr>
+            <tr>
+                <td><a href="allSongs.html" style="color: inherit; text-decoration: none">songs</a></td>
+            </tr>
+            <tr>
+                <td><a href="Browse.html" style="color: inherit; text-decoration: none">Albums</a></td>
+            </tr>
+            <tr>
+                <td><a href="artist.html" style="color: inherit; text-decoration: none">Artist</a></td>
+            </tr>
+
+        </table>
+
+    </div>
+    <div id="browseCenterContent">
+        <div id="popSearch">
+            <input type="email" id="Search" name="search" placeholder="Search">
+        </div>
+        <div style="width: 700px;
+                    margin-top: 10px;
+                    height: 200px;
+                    float: right;
+                    background-color: #101010">
+            <div style="font-size: 35px">Hailee Steinfeld</div>
+            <div style="font-size: large; margin-top: 20px"> By PlayList~ Artist </div>
+            <div style=" font-size: medium">47,45,721 FOLLOWERS </div>
+            <div><button id="FollowerButton" type="button">FOLLOW</button></div>
+            <div><button id="PlayButton" type="button">PLAY</button></div>
+        </div>
+        <div style="margin: 10px; height:200px"><img src="projectMedia/a2-haileeStainfeld.jpg" height="200" width="200"/></div>
+        <hr style="margin-top: inherit; margin-bottom: inherit">
+
+        <div id="popFilter">
+            <input style="margin-top: 10px" type="email" id="filter" name="filter" placeholder="Filter">
+        </div><br>
+
+        <div id="popPlaylist">
+            <table  style= "margin-left: 30px; border-spacing: 15px">
+                <tr>
+                    <td colspan="2" style="font-weight: normal">TITLE</td>
+                </tr>
+                <tr>
+                    <td style="width: 500px">- Starving</td>
+                    <td>
+                        <audio controls>
+                            <source src="projectMedia/12-Hailee_Steinfeld_Feat._Zedd_-_Starving.mp3">
+                        </audio>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td style="width: 500px">- Let Me Go</td>
+                    <td>
+                        <audio controls>
+                            <source src="projectMedia/3-LetMeGo.mp3">
+                        </audio>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <div id="browseRightContent">
+        <div style="font-size: 25px; font-weight: bold; color: white;">Friend Activity</div><br><br><br><br>
+        <div><button id="findFriends" type="button">Find Friends</button></div>
+    </div>
+</div>
+
+</body>
+</html>

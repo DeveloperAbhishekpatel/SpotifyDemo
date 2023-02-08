@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Songs - PlayList</title>
+    <link rel="stylesheet" type="text/css" href="Project.css">
+    <style>
+        body{
+            background-color: #101010;
+            font-family: Calibri;
+
+        }
+        td:hover {background-color: #999999;
+            cursor: pointer;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+<div id="header" style="position: absolute">
+    <ul>
+        <a href="index.html"> <img  id="head1" src="projectMedia/PlayList.png" ></a>
+        <li>&nbsp;&nbsp;</li>
+        <li><b><a href="login.html" style="color: white; text-decoration: none">Log In</a></b></li>
+        <li><b><a href="signUp.html" style="color: white; text-decoration: none">Sign up</a></b></li>
+        <li>|</li>
+        <li><b><a href="allSongs.html" style="text-decoration: none; color: inherit">Songs</a></b></li>
+        <li><b><a href="help.html" style="color: white; text-decoration: none">Help</a></b></li>
+        <li><b><a href="premium.html" style="color: white; text-decoration: none">Premium</a></b></li>
+
+    </ul>
+</div>
+
+<div id="browseContent">
+    <div id="browseLeftContent">
+        <table id="tableBrowse" style="width: 200px;
+                                 height: 40px;
+                                 border-spacing: 20px;
+                                 font-weight: bold;">
+            <tr>
+                <td><a href="Browse.html" style="color: inherit; text-decoration: none">Browse</a></td>
+            </tr>
+            <tr>
+                <td><a href="premium.html" style="color: inherit; text-decoration: none">Made For You</a></td>
+            </tr>
+            <tr>
+                <td><a href="recentlyPlayed.html" style="color: inherit; text-decoration: none">Recently Played</a></td>
+            </tr>
+            <tr>
+                <td><a href="allSongs.html" style="color: inherit; text-decoration: none">songs</a></td>
+            </tr>
+            <tr>
+                <td><a href="Browse.html" style="color: inherit; text-decoration: none">Albums</a></td>
+            </tr>
+            <tr>
+                <td><a href="artist.html" style="color: inherit; text-decoration: none">Artist</a></td>
+            </tr>
+
+        </table>
+    </div>
+    <div id="browseCenterContent">
+        <div id="popSearch">
+            <input type="email" id="Search" name="search" placeholder="Search">
+        </div>
+        <div style="width: 700px;
+                    margin-top: 10px;
+                    height: 200px;
+                    float: right;
+                    background-color: #101010">
+            <div style="font-size: 35px"> Music</div>
+            <div style="font-size: large; margin-top: 20px"> By PlayList~  </div>
+            <div style=" font-size: medium"></div>
+            <div><button id="FollowerButton" type="button">FOLLOW</button></div>
+            <div><button id="PlayButton" type="button">PLAY</button></div>
+        </div>
+        <div style="margin: 10px; height:200px"><img src="projectMedia/music.png" height="200" width="200"/></div>
+        <hr style="margin-top: inherit; margin-bottom: inherit">
+
+        <div id="popFilter">
+            <input style="margin-top: 10px" type="email" id="filter" name="filter" placeholder="Filter">
+        </div><br>
+
+        <div id="popPlaylist">
+            <table  style= "margin-left: 30px; border-spacing: 15px">
+                <tr>
+                    <td colspan="2" style="font-weight: normal">TITLE</td>
+                </tr>
+                <tr>
+                    <td style="width: 500px">Shawn Mendes - There's Nothing Holding Me Back</td>
+                    <td>
+                        <audio controls>
+                            <source src="projectMedia/0-Shawn%20Mendes%20-%20There's%20Nothing%20Holding%20Me%20Back.mp3">
+                        </audio>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td style="width: 500px">Hailee Steinfeld - Let Me Go</td>
+                    <td>
+                        <audio controls>
+                            <source src="projectMedia/3-LetMeGo.mp3">
+                        </audio>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 500px">Lauv - I Like Me Better</td>
+                    <td>
+                        <audio controls>
+                            <source src="projectMedia/4-Like_Me_Better.mp3">
+                        </audio>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 500px">Zec Efron - Rewrite The Stars</td>
+                    <td>
+                        <audio controls>
+                            <source src="projectMedia/5-Rewrite%20The%20Stars.mp3">
+                        </audio>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 500px">Charlie Puth - Attention</td>
+                    <td>
+                        <audio controls>
+                            <source src="projectMedia/6-Charlie_Puth_-_Attention.mp3">
+                        </audio>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 500px">Zedd - The Middle</td>
+                    <td>
+                        <audio controls>
+                            <source src="projectMedia/7-the-middle.mp3">                    </audio>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td style="width: 500px">Bruno Marse - That is What I Like </td>
+                    <td>
+                        <audio controls>
+                            <source src="projectMedia/11-Bruno-Mars-That-s-What-I-Like.mp3">
+                        </audio>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td style="width: 500px">Childish Gambino - This is America</td>
+                    <td>
+                        <audio controls>
+                            <source src="projectMedia/10-Childish_Gambino_-_This_Is_America_Official.mp3">
+                        </audio>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 500px">Wiz Khalifa - See You Again</td>
+                    <td>
+                        <audio controls>
+                            <source src="projectMedia/9-Wiz_Khalifa_-_See_You_Again.mp3">
+                        </audio>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td style="width: 500px">Ruth B - Lost Boy</td>
+                    <td>
+                        <audio controls>
+                            <source src="projectMedia/15-Ruth%20B.%20-%20Lost%20Boy.mp3">
+                        </audio>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 500px">The Chainsmokers - Closer</td>
+                    <td>
+                        <audio controls>
+                            <source src="projectMedia/14-The%20Chainsmokers-Closer.mp3">
+                        </audio>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 500px">Ed Sheeran - Shape Of You</td>
+                    <td>
+                        <audio controls>
+                            <source src="projectMedia/13-Shape%20Of%20You%20Ed%20Sheeran.mp3">
+                        </audio>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td style="width: 500px">Alan Walker - All Fall Down</td>
+                    <td>
+                        <audio controls>
+                            <source src="projectMedia/20-Alan%20Walker%20–%20All%20Falls%20Down.mp3">
+                        </audio>
+                    </td>
+                </tr>
+                <tr>
+
+                <tr>
+                    <td style="width: 500px">DJ Snake - South Side </td>
+                    <td>
+                        <audio controls>
+                            <source src="projectMedia/24-DJ%20Snake%20x%20Eptic%20-%20SouthSide.mp3">
+                        </audio>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 500px">Pitbull - Give Me Everything </td>
+                    <td>
+                        <audio controls>
+                            <source src="projectMedia/25-%20Pitbull%20ft-Give%20Me%20Everything.mp3">
+                        </audio>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 500px">Akon - Right Now</td>
+                    <td>
+                        <audio controls>
+                            <source src="projectMedia/27-Akon%20-%20Right%20Now.mp3">
+                        </audio>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td style="width: 500px">Lukas Graham - Love Someone</td>
+                    <td>
+                        <audio controls>
+                            <source src="projectMedia/30-Lukas%20Graham%20-%20Love%20Someone.mp3">
+                        </audio>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td style="width: 500px">Luis Fonsi - Despacito </td>
+                    <td>
+                        <audio controls>
+                            <source src="projectMedia/31-Luis%20Fonsi%20-%20Despacito.mp3">
+                        </audio>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 500px">Willi William - Mi Gente</td>
+                    <td>
+                        <audio controls>
+                            <source src="projectMedia/33-J%20Balvin,%20Willy%20William%20-%20Mi%20Gente.mp3">
+                        </audio>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <div id="browseRightContent">
+        <div style="font-size: 25px; font-weight: bold; color: white;">Friend Activity</div><br><br><br><br>
+        <div><button id="findFriends" type="button">Find Friends</button></div>
+    </div>
+</div>
+
+</body>
+</html>
